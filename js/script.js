@@ -78,7 +78,7 @@ const mainStage = new Stage("main-canvas");
 const stages = [trailsStage, mainStage];
 
 //随机文字烟花内容
-const randomWords = ["叮铃铃", "GNZ48-陈珊玲"];
+const randomWords = ["酒酒", "张帆", "第九十九天晴"];
 const wordDotsMap = {};
 randomWords.forEach((word) => {
 	wordDotsMap[word] = MyMath.literalLattice(word, 3, "Gabriola,华文琥珀", "90px");
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	var canvasContainer = document.querySelector(".canvas-container");
 	// 设置背景图像和背景大小
 	// 在这里输入图片路径
-	canvasContainer.style.backgroundImage = "url(星梦剧场.jpg)";
+	canvasContainer.style.backgroundImage = "url(酒酒sake.jpg)";
 	canvasContainer.style.backgroundSize = "100%";
 });
 
